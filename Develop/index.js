@@ -17,9 +17,10 @@ const start = () => {
             message: 'What color do you want the shape?',
         },
         {
-            type: 'input',
+            type: 'maxlength-input',
             name: 'text',
             message: 'What text do you want (3 characters max)?',
+            maxLength: 3
             // limit to 3 characters
         },
         {

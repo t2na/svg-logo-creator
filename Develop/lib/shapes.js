@@ -19,7 +19,7 @@ class Square extends Shape {
         super(color);
     }
     render() {
-        return `<rect x="93.75" y="43.75" width="112.5" height="112.5" fill="${this.color}" />`
+        return `<rect x="50" y="20" width="200" height="200" fill="${this.color}" />`
     }
 }
 // x,y is coordinates for top left corner, feel free to mess with it to confirm
@@ -29,7 +29,7 @@ class Triangle extends Shape {
         super(color);
     }
     render() {
-        return `<polygon points="150, 43.75 206.25, 156.15 93.75, 156.15" fill="${this.color}" />`
+        return `<polygon points="150, 15 270, 156.15 30, 156.15" fill="${this.color}" />`
     }
 }
 
