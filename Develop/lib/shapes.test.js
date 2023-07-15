@@ -37,4 +37,14 @@ describe('Shapes', () => {
             expect(triangle.render()).toBe(`<polygon points="150, 15 270, 156.15 30, 156.15" fill="${this.color}" />`)
         })
     })
-})
+
+    
+});
+
+describe('Error handling', () => {
+    it('should throw an error if color is not specified for Square', () => {
+        expect(() => {
+            new Square();
+        }).toThrow('Color must be specified');
+    });
+});
