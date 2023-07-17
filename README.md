@@ -1,23 +1,23 @@
 # svg-logo-creator
 
-A generator for professional README.md files, generated from the command line
+A node.js command-line application for generating svg logo files.
 
 ### Description
-The attached project file(s) are for our eighth challenge as part of the UC Berkeley full stack coding bootcamp. The goal of the challenge was to create our own professional README generator. The project, itself, is pretty cut and dry. Users can access the application via the command line using Node.JS, then fill out the series of questions with the content they want for the README, and finally, the README is generated in the "output" folder.
+The attached project file(s) are for our eighth challenge as part of the UC Berkeley full stack coding bootcamp. The goal of the challenge was to create our own svg logo generator. The project is straightforward and will generate a .svg logo in response to user prompts. Users can access the application via the command line using Node.JS, then fill out the series of questions with the content the design and text they want for their .svg logo, and finally, the svg file is generated in the "output" folder.
 
-This project was initially challenging, as I wasn't quite sure where to begin. Fortunately, we had spent the week studying Node.JS and I was eventually able to figure out how to link the index.js file to the .js file that generates the README markdown. This project helped me realize the capabilities of Node.JS, how it's able to provide interactivity between multiple javascript files, and how it can be leveraged from the command line terminal.
+In hindsight, the project seems quite simple, but knowing where to start was initially difficult. Eventually, I realized that I needed to start with creating my basic classes, which I would then extend to incorporate further use cases e.g. starting with a "shape" class, then adding individual classes for each shape - "circle," "square," etc. The project helped me further understand the concept of classes and object-oriented programming.
 
 ### Installation
 In order to use the application, clone the repository into your IDE of choice and then open the index.js file using node.js.
 
 ### Usage
-This application is free to use,
+This application is free to use.
 
 ### Credits
 This project was created with helpful collaboration from bootcamp group 3, as well as my instructors, TAs, and tutors from UC Berkeley.
 
 ### Video Example
-https://drive.google.com/file/d/1HQFPTsTWYIABO1quzc46Odp3h7xaj1cj/view
+https://drive.google.com/file/d/1BWL25mmVZwUDacyN8JFOHN64Es9iPJ7a/view
 
 ### License
 
