@@ -17,7 +17,7 @@ This application is free to use.
 This project was created with helpful collaboration from bootcamp group 3, as well as my instructors, TAs, and tutors from UC Berkeley.
 
 ### Video Example
-https://drive.google.com/file/d/1BWL25mmVZwUDacyN8JFOHN64Es9iPJ7a/view
+https://drive.google.com/file/d/13cXieleRotViYtHBGdnDr5pzJ61T7YyJ/view
 
 ### License
 
